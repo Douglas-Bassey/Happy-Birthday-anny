@@ -301,6 +301,24 @@ MAIN CONTENT
   }
 }
 
+@media (max-width: 768px) {
+  .intro-content h1,
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+
+  .section-heading h2,
+  .love-box h2,
+  .final-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .memory-card img {
+    height: 350px;
+    object-position: center 20%;
+  }
+}
+
 @media (max-width: 576px) {
   .intro-content h1,
   .hero-content h1 {
@@ -314,12 +332,19 @@ MAIN CONTENT
   }
 
   .memory-card img {
-    height: 280px;
-    object-position: center top;
+    height: 300px;
+    object-position: center 15%;
   }
 
   .open-btn,
   .music-btn {
     width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .memory-card img {
+    height: 280px;
+    object-position: center 10%;
   }
 }
